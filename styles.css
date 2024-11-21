@@ -1,6 +1,6 @@
 /* Game Board Styling */
 
-game-board {
+#game-board {
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -8,6 +8,7 @@ game-board {
     width:300px;
     height:300px;
     border:2px solid black;
+    margin:0 auto;
 }
 
 .cell {
@@ -18,4 +19,5 @@ game-board {
     font-size: 24px;
     cursor: pointer;
     background-color: #f0f0f0;
+    font-size: 24px;
 }
